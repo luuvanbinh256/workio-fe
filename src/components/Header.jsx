@@ -5,13 +5,13 @@ import banner from "../assets/banner.png";
 const Header = () => {
   return (
     <header className="flex justify-center w-full md:pt-5 xl:pt-6">
-      <div className="max-w-[1257px] justify-center lg:justify-start w-full h-16 flex items-center relative lg:bg-[#141414] lg:border border-[#292929] rounded-md bg-transparent border-0 z-10 lg:mx-2">
+      <div className="max-w-[1400px] justify-center lg:justify-start w-full h-16 flex items-center relative lg:bg-[#141414] lg:border border-[#292929] rounded-md bg-transparent border-0 z-10 lg:mx-2">
         <Link to="/" className="px-5 py-2 lg:absolute">
           <img src={logo} alt="logo" className="w-20" />
         </Link>
         <div className="hidden w-full grid-cols-3 gap-6 text-white lg:grid">
           <div className="nav-left"></div>
-          <nav className="flex items-center justify-center font-medium gap-7 lg:text-base nav xl:text-lg">
+          <nav className="flex items-center justify-center font-medium gap-7 lg:text-base nav xl:text-lg 2xl:text-xl">
             <Link to="#">Links</Link>
             <Link to="#">Whitepaper</Link>
             <Link to="#">Pitch Deck</Link>
