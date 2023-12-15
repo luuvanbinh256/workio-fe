@@ -18,7 +18,7 @@ const Hero = () => {
           AI Job Matching.
         </p>
       </div>
-      <div className="flex items-center gap-3 mt-8 text-white">
+      <div className="flex flex-col gap-3 mt-8 text-white md:items-center md:flex-row gap-y-4">
         <a href="#" target="_blank">
           <div className="flex items-center h-12 gap-2 p-4 text-sm transition rounded-md bg-[#292929] border border-[#525252] hover:bg-[#f6c93b] hover:text-black">
             <img src={twitter} alt="" className="h-4" />

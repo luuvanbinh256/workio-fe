@@ -28,11 +28,5 @@ button {
   background-color: #9e027b;
   background-image: radial-gradient(circle farthest-corner at 50% 50%, #0b0b13, #13122a 36%, #211f54 100%, #211f54 100%, #54484e 100%, #f6c93b);
   border-radius: 5px;
-  padding: 110px 60px;
   position: relative;
-}
-
-.footer {
-  grid-column-gap: 90px;
-  grid-template-columns: minmax(220px, .8fr) auto auto auto auto;
 }
